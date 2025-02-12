@@ -153,8 +153,7 @@ export default function Skyscrapers() {
       await txn.wait();
       setLoadingVerifyAndMintBtn(false);
       alert(
-        `Successfully verified! The NFT has been minted and sent to your wallet. You can see the contract here: ${
-          networks[networks.selectedChain].blockExplorerUrls[0]
+        `Successfully verified! The NFT has been minted and sent to your wallet. You can see the contract here: ${networks[networks.selectedChain].blockExplorerUrls[0]
         }address/${contractAddress.skyscrapersContract}`
       );
     } catch (error) {
@@ -333,8 +332,8 @@ export default function Skyscrapers() {
   return (
     <div>
       <Head>
-        <title>zkGames - Skyscrapers</title>
-        <meta name="title" content="zkGames - Skyscrapers" />
+        <title>zkArcade - Skyscrapers</title>
+        <meta name="title" content="zkArcade - Skyscrapers" />
         <meta
           name="description"
           content="Zero Knowledge Games Platform - Skyscrapers"

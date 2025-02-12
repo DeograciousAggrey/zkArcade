@@ -148,8 +148,7 @@ export default function Sudoku() {
       await txn.wait();
       setLoadingVerifyAndMintBtn(false);
       alert(
-        `Successfully verified! The NFT has been minted and sent to your wallet. You can see the contract here: ${
-          networks[networks.selectedChain].blockExplorerUrls[0]
+        `Successfully verified! The NFT has been minted and sent to your wallet. You can see the contract here: ${networks[networks.selectedChain].blockExplorerUrls[0]
         }address/${contractAddress.sudokuContract}`
       );
     } catch (error) {
@@ -327,7 +326,7 @@ export default function Sudoku() {
   return (
     <div>
       <Head>
-        <title>zkGames - Sudoku</title>
+        <title>zkArcade - Sudoku</title>
         <meta name="title" content="zkGames - Sudoku" />
         <meta
           name="description"

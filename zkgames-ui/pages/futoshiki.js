@@ -153,8 +153,7 @@ export default function Futoshiki() {
       await txn.wait();
       setLoadingVerifyAndMintBtn(false);
       alert(
-        `Successfully verified! The NFT has been minted and sent to your wallet. You can see the contract here: ${
-          networks[networks.selectedChain].blockExplorerUrls[0]
+        `Successfully verified! The NFT has been minted and sent to your wallet. You can see the contract here: ${networks[networks.selectedChain].blockExplorerUrls[0]
         }address/${contractAddress.futoshikiContract}`
       );
     } catch (error) {
@@ -332,7 +331,7 @@ export default function Futoshiki() {
   return (
     <div>
       <Head>
-        <title>zkGames - Futoshiki</title>
+        <title>zkArcade - Futoshiki</title>
         <meta name="title" content="zkGames - Futoshiki" />
         <meta
           name="description"

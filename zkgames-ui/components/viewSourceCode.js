@@ -1,4 +1,4 @@
-const GITHUB_LINK = "https://github.com/vplasencia/zkGames";
+const GITHUB_LINK = "https://github.com/DeograciousAggrey/zkArcade";
 
 export default function ViewSourceCode() {
   return (
