@@ -1,0 +1,22 @@
+{
+  "selectedChain": "421614",
+  "1337": {
+    "chainId": "1337",
+    "chainName": "Localhost 8545",
+    "rpcUrls": ["http://localhost:8545"],
+    "nativeCurrency": {
+      "symbol": "ETH"
+    },
+    "blockExplorerUrls": []
+  },
+  "421614": {
+    "chainId": "421614",
+    "chainName": "Arbitrum Sepolia Testnet",
+    "rpcUrls": ["https://sepolia-rollup.arbitrum.io/rpc/"],
+    "nativeCurrency": {
+      "symbol": "ETH"
+    },
+    "blockExplorerUrls": ["https://sepolia.arbiscan.io/"]
+  }
+  
+}

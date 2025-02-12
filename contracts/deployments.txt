@@ -1,0 +1,7 @@
+npx hardhat run scripts/deploy.js --network arbitrumSepolia
+SudokuVerifier Contract deployed to: 0x1A6e8f72f309CFA7B7Aca231E65FA1e24D4B8fB0
+Sudoku Contract deployed to: 0xE36bE621c0792A2a64d5BE267EA09A4C266CCeb1
+FutoshikiVerifier deployed to: 0x98aBC61FA299693246C282C4D15A0401C239F606
+Futoshiki deployed to: 0xB0a7f823688BdB6125780D1Ebd2940Bf32F14FD6
+SkyscrapersVerifier Contract deployed to: 0xD0276C2f1353157A562400309560C9cdCBA47212
+Skyscrapers Contract deployed to: 0x164ae108DC16Eb8365C57b2339b3831800132B6C
