@@ -4,6 +4,9 @@ git clone https://github.com/HorizenLabs/snarkjs2zkv.git
 
 cd snarkjs2zkv
 
+# Remove Git tracking so it's treated as a normal folder
+rm -rf .git
+
 npm install
 
 #run the command with the path to the proof.json file
