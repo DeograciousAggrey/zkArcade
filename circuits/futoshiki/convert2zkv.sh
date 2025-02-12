@@ -1,0 +1,27 @@
+#clone the snarkjs2zkv repository
+git clone https://github.com/HorizenLabs/snarkjs2zkv.git
+
+
+cd snarkjs2zkv
+
+npm install
+
+#run the command with the path to the proof.json file
+node snarkjs2zkv.js convert-proof /home/roman/zkGames/circuits/futoshiki/proof.json -o proof_zkv.json
+
+#copy the proof_zkv.json file to the circuits/futoshiki folder
+cp proof_zkv.json ../
+
+#run the command with the path to the verification_key.json file
+node snarkjs2zkv.js convert-vk /home/roman/zkGames/circuits/futoshiki/verification_key.json -o verification_key_zkv.json
+
+#copy the verification_key_zkv.json file to the circuits/futoshiki folder
+
+cp verification_key_zkv.json ../
+
+#run the command with the path to the public.json file
+node snarkjs2zkv.js convert-public /home/roman/zkGames/circuits/futoshiki/public.json -o public_zkv.json -c bn128
+
+#copy the public_zkv.json file to the circuits/futoshiki folder
+cp public_zkv.json ../
+
