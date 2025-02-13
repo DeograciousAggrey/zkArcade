@@ -1,22 +1,41 @@
-# zkGames <!-- omit in toc -->
+# zkArcade <!-- omit in toc -->
 
-![zkGamesRepoImage](https://user-images.githubusercontent.com/52170174/164951489-8f3d9b0a-4334-4dfb-b0d6-b6a87ff81424.png)
+![zkGamesRepoImage](https://user-images.githubusercontent.com/68210234/185812708-ae6d72d1-34f5-4fb0-9cba-bd3a1f75f2fa.png)
 
-zkGames is a platform that allows users to play zk (zero knowledge) games and mint an NFT as proof that they have won.
+zkArcade is a platform that allows users to play zk (zero knowledge) games and mint an NFT as proof that they have won.
 
-<!-- The project is currently on [Harmony Testnet](https://explorer.pops.one/) and the frontend is hosted on [Vercel](https://github.com/vercel/vercel). -->
 
-The project is currently on [Harmony Mainnet](https://explorer.harmony.one/) and the frontend is hosted on [Vercel](https://github.com/vercel/vercel).
+The project is currently on [Arbitrum Sepolia](https://sepolia.arbiscan.io/) and the frontend is hosted on [Vercel](https://github.com/vercel/vercel).
 
-zkGames has 3 games so far: Futoshiki, Skyscrapers and Sudoku.
+ZkArcade has 3 games so far: Futoshiki, Skyscrapers and Sudoku.
 
-zkGames Link:
+## ZkArcade Link:
 
-<https://zkgames.one/>
+<https://zk-arcade-omega.vercel.app/>
 
-zkGames Demo Video:
 
-<https://youtu.be/EpeK3WzmS8Y>
+## ZkArcade Demo video:
+
+<https://youtu.be/xzd4vLtB8Lc>
+
+## Contract Deployment Links in the mumbai explorer;
+
+SudokuVerifier Contract deployed to: <https://sepolia.arbiscan.io/address/0x1A6e8f72f309CFA7B7Aca231E65FA1e24D4B8fB0>
+
+Sudoku Contract deployed to: <https://sepolia.arbiscan.io/address/0xE36bE621c0792A2a64d5BE267EA09A4C266CCeb1>
+
+FutoshikiVerifier deployed to: <https://sepolia.arbiscan.io/address/0x98aBC61FA299693246C282C4D15A0401C239F606>
+
+Futoshiki deployed to: <https://sepolia.arbiscan.io/address/0xB0a7f823688BdB6125780D1Ebd2940Bf32F14FD6>
+
+SkyscrapersVerifier Contract deployed to: <https://sepolia.arbiscan.io/address/0xD0276C2f1353157A562400309560C9cdCBA47212>
+
+Skyscrapers Contract deployed to: <https://sepolia.arbiscan.io/address/0x164ae108DC16Eb8365C57b2339b3831800132B6C>
+
+
+
+
+
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -31,7 +50,7 @@ zkGames Demo Video:
   - [Run contracts](#run-contracts)
   - [Run zkgames-ui](#run-zkgames-ui)
 - [Steps to Add a New Game](#steps-to-add-a-new-game)
-- [Some Images of the zkGames Application](#some-images-of-the-zkgames-application)
+- [Images of the zkArcade Application](#images-of-the-zkarcade-application)
   - [Initial page](#initial-page)
   - [Futoshiki Game](#futoshiki-game)
   - [Skyscrapers Game](#skyscrapers-game)
@@ -47,21 +66,21 @@ The project has three main folders:
 
 ### circuits
 
-The [circuits folder](/circuits/) contains all the circuits used in zkGames.
+The [circuits folder](/circuits/) contains all the circuits used in zkArcade.
 
-To learn more about the zkGames circuits, read the [README file](/circuits/README.md) inside the `circuits` folder.
+To learn more about the zkArcade circuits, read the [README file](/circuits/README.md) inside the `circuits` folder.
 
 ### contracts
 
-The [contracts folder](/contracts/) contains all the smart contracts used in zkGames.
+The [contracts folder](/contracts/) contains all the smart contracts used in zkArcade.
 
-To learn more about the zkGames smart contracts, read the [README file](/contracts/README.md) inside the `contracts` folder.
+To learn more about the zkArcade smart contracts, read the [README file](/contracts/README.md) inside the `contracts` folder.
 
 ### zkgames-ui
 
-The [zkgames-ui folder](/zkgames-ui/) contains the zkGames frontend.
+The [zkgames-ui folder](/zkgames-ui/) contains the zkArcade frontend.
 
-To learn more about the zkGames frontend, read the [README file](/zkgames-ui/README.md) in the `zkgames-ui` folder.
+To learn more about the zkArcade frontend, read the [README file](/zkgames-ui/README.md) in the `zkgames-ui` folder.
 
 ## Zero Knowledge Structure
 
@@ -113,7 +132,7 @@ The following graphic shows the structure of the most important zero knowledge e
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/vplasencia/zkGames.git
+git clone https://github.com/DeograciousAggrey/zkArcade
 ```
 
 ### Run circuits
@@ -182,20 +201,20 @@ Steps to follow to add a new game (in each step you can check how is done with t
  }
 ```
 
-## Some Images of the zkGames Application
+## Images of the ZkArcade Application
 
 ### Initial page
 
-![InitialPage](https://user-images.githubusercontent.com/52170174/164957823-ea7dfb78-c151-4830-b714-e3f66a424d57.png)
+![InitialPage](https://user-images.githubusercontent.com/68210234/185812026-1f5e2d0b-de1c-4c96-94c3-b7360993c5a6.png)
 
 ### Futoshiki Game
 
-![FutoshikiGame](https://user-images.githubusercontent.com/52170174/164957832-95c27552-8248-453c-a6e3-7bca2d97d087.png)
+![FutoshikiGame](https://user-images.githubusercontent.com/68210234/185812023-7a8e7598-c48c-4be7-958d-8a6cec1d444b.png)
 
 ### Skyscrapers Game
 
-![SkyscrapersGame](https://user-images.githubusercontent.com/52170174/164957837-959530b8-399b-4551-8a37-145e9ff70e3e.png)
+![SkyscrapersGame](https://user-images.githubusercontent.com/68210234/185812019-02518410-a185-4335-9fc3-fb200295d3a9.png)
 
 ### Sudoku Game
 
-![SudokuGame](https://user-images.githubusercontent.com/52170174/164957841-08d9166d-99ba-4dbe-88b1-86a507734e6c.png)
+![SudokuGame](https://user-images.githubusercontent.com/68210234/185812025-397a303a-f524-419c-8a33-ac6ce69752c1.png)
