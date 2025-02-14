@@ -205,16 +205,16 @@ Steps to follow to add a new game (in each step you can check how is done with t
 
 ### Initial page
 
-![InitialPage](https://user-images.githubusercontent.com/68210234/185812026-1f5e2d0b-de1c-4c96-94c3-b7360993c5a6.png)
+![InitialPage](https://github.com/user-attachments/assets/9c4288ab-2072-452e-b146-a06d38dbdbcc)
 
 ### Futoshiki Game
 
-![FutoshikiGame](https://user-images.githubusercontent.com/68210234/185812023-7a8e7598-c48c-4be7-958d-8a6cec1d444b.png)
+![FutoshikiGame](https://github.com/user-attachments/assets/e1bb21aa-3bde-472e-925b-e849bada228c)
 
 ### Skyscrapers Game
 
-![SkyscrapersGame](https://user-images.githubusercontent.com/68210234/185812019-02518410-a185-4335-9fc3-fb200295d3a9.png)
+![SkyscrapersGame](https://github.com/user-attachments/assets/b21d707a-e9e6-499b-9f64-c37928fa0d25)
 
 ### Sudoku Game
 
-![SudokuGame](https://user-images.githubusercontent.com/68210234/185812025-397a303a-f524-419c-8a33-ac6ce69752c1.png)
+![SudokuGame](https://github.com/user-attachments/assets/80f11bcb-d71c-486d-96e9-ae8c63774449)
