@@ -31,3 +31,10 @@ And after that, you can always run:
 ```bash
 ./execute.sh
 ```
+
+Convert the proof, public and verification files to zkv format:
+
+```bash
+chmod u+x convert2zkv.sh
+./convert2zkv.sh
+```
