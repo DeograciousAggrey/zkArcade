@@ -16,9 +16,9 @@ ZkArcade has 3 games so far: Futoshiki, Skyscrapers and Sudoku.
 
 ## ZkArcade Demo video:
 
-<https://youtu.be/xzd4vLtB8Lc>
+<https://youtu.be/yluTjfnbDqs>
 
-## Contract Deployment Links in the mumbai explorer;
+## Contract Deployment Links in the Arbitrum Sepolia explorer;
 
 SudokuVerifier Contract deployed to: <https://sepolia.arbiscan.io/address/0x1A6e8f72f309CFA7B7Aca231E65FA1e24D4B8fB0>
 
